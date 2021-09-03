@@ -1,0 +1,1250 @@
+<html >
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Certified Java Programmer Mock Exam</title>
+<meta content="noindex" name="robots">
+<style media="screen" type="text/css">
+<!--
+#question {font-size: 125%;}
+pre  {font: Arial}
+#strong1 {font-weight: bold}
+#bold {font-weight: bold}
+#codeFragment {font-family: "Courier"}
+#keyWord {font-family: "Courier"}
+#identifier {font-family: "Courier"}
+#type {font-family: "Courier"}
+#literal {font-family: "Courier"}
+#reservedWord {font-family: "Courier"}
+#keyTerm {font-style: italic}
+#codeFragmentBlock {font-family: "Courier"}
+#commandLine {font-family: "Courier"}
+#codeBlock {font-family: "Courier"}
+#statement {font-family: "Courier"}
+#expression {font-family: "Courier"}
+#superScript {font-size: 65%}
+#subScript {font-size: 65%}
+#output {font-family: "Courier"}
+-->
+</style>
+</head>
+<body>
+<h1 align="center">
+<br>
+
+</h1>
+<p>
+<h2 align="center">
+
+</h2>
+</p>
+<div align="center">
+
+</p>
+
+<p>
+
+</p>
+
+</div>
+<hr>
+<h2>Question 1</h2>
+<pre>
+class JMM102 {
+  public static void main(String args[]) {
+    for (int i = 0; i&lt;5 ;i++) {
+      switch(i) {
+        case 0: System.out.print("v ");break;
+        case 1: System.out.print("w ");
+        case 2: System.out.print("x ");break;
+        case 3: System.out.print("y ");
+        case 4: System.out.print("z ");break;
+        default: System.out.print("d ");
+}}}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: v w x y z</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: v w x y z d</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: v w x x y z z</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Prints: v w w x y y z d</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Prints: d d d d d d</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>g.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>h.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 2</h2>
+<pre>
+class JMM103 {
+  public static void main(String args[]) {
+    for (int i = 0; i &lt; 5 ;i++) {
+      switch(i) {
+        0: System.out.print("v ");break;
+        1: System.out.print("w ");
+        2: System.out.print("x ");break;
+        3: System.out.print("y ");
+        4: System.out.print("z ");break;
+}}}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: v w x y z</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: v w x x y z z</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: v w w x y y z</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Run-time error.</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Compile-time error.</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>None of the above.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 3</h2>
+<pre>
+class JMM107 {
+  public static void main(String[] args) {
+    boolean b = true;
+    if (b = false) {System.out.print("A");
+    } else if (b) {System.out.print("B");
+    } else {System.out.print("C");}
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: A</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: B</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: C</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 4</h2>
+<pre>
+class JMM108 {
+  static boolean b;
+  public static void main(String[] args) {
+    if (b) {System.out.print("A");
+    } else if (b = false) {System.out.print("B");
+    } else if (b) {System.out.print("C");
+    } else if (!b) {System.out.print("D");
+    } else {System.out.print("E");}
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: A</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: B</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: C</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Prints: D</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Prints: E</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>g.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>h.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 5</h2>
+<pre>
+class JMM109 {
+  public static void main(String[] args) {
+    boolean b;
+    if (b = false) {System.out.print("A");
+    } else if (b) {System.out.print("B");
+    } else if (!b) {System.out.print("C");
+    } else {System.out.print("D");}
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: A</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: B</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: C</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Prints: D</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>g.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 6</h2>
+<pre>
+class JMM122 {
+  public static void main (String[] args) {
+    for (int i = 0; i &lt; 4; i++) {
+      switch (i) {
+        case 0: System.out.print("A");
+        case 1: System.out.print("B");
+        case 2: System.out.print("C");
+}}}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: ABC</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: ABCC</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: CBA</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Prints: ABCBCC</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>g.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 7</h2>
+<pre>
+class JMM123 {
+  public static void main (String args[]) {
+    int i = 0, j = 0, k = 0;
+label1:
+    for (int h = 0; h &lt; 6; h++) {
+label2:
+      do { i++; k = h + i + j;
+        switch (k) {
+          default: break label1;
+          case 1: continue label2;
+          case 2: break;
+          case 3: break label2;
+          case 4: continue label2;
+          case 5: continue label1;
+        }
+      } while (++j&lt;5);
+    }
+    System.out.println(h + "," + i + "," + j);
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: 0,1,0</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: 0,2,1</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: 1,3,1</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Prints: 2,4,1</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>g.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 8</h2>
+<pre>
+class JMM103 {
+  public static void main(String args[]) {
+    byte b = -1;
+    switch(b) {
+      case 0:    System.out.print("zero "); break;
+      case 100:  System.out.print("100 ");  break;
+      case 1000: System.out.print("1000 "); break;
+      default: System.out.print("Default ");
+}}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: zero</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: 100</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: 1000</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Prints: Default</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>g.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 9</h2>
+<pre>
+class JMM104 {
+  public static void main (String args[]) {
+    char c = 'b';
+    switch(c) {
+      case 'a': System.out.print("1");
+      case 'b': System.out.print("2");
+      case 'c': System.out.print("3");
+      default:  System.out.print("4");
+}}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: 3</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: 34</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: 234</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Prints: 1234</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>g.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 10</h2>
+<pre>
+class JMM105 {
+  public static void main(String args[]) {
+    int x = 6; int success = 0;
+    do  {
+      switch(x) {
+        case 0: System.out.print("0"); x += 5; break;
+        case 1: System.out.print("1"); x += 3; break;
+        case 2: System.out.print("2"); x += 1; break;
+        case 3: System.out.print("3"); success++; break;
+        case 4: System.out.print("4"); x -= 1; break;
+        case 5: System.out.print("5"); x -= 4; break;
+        case 6: System.out.print("6"); x -= 5; break;
+      }
+    } while ((x != 3) || (success &lt; 2));
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: 60514233</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: 6152433</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: 61433</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Prints: 6143</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Compile-time error</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 11</h2>
+<pre>
+class JMM106 {
+  public static void main(String args[]) {
+    int x = -5; int success = 0;
+    do  {
+      switch(x) {
+        case 0: System.out.print("0"); x += 5; break;
+        case 1: System.out.print("1"); x += 3; break;
+        case 2: System.out.print("2"); x += 1; break;
+        case 3: System.out.print("3"); success++; break;
+        case 4: System.out.print("4"); x -= 1; break;
+        case 5: System.out.print("5"); x -= 4; break;
+        case 6: System.out.print("6"); x -= 5; break;
+        default: x += x &lt; 0 ? 2 : -2;
+      }
+    } while ((x != 3) || (success &lt; 2));
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: 60514233</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: 1433</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: 61433</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Prints: 051433</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Compile-time error</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 12</h2>
+<pre>
+class JMM124 {
+  public static void main(String args[]) {
+    int k;
+    for (int i=0, j=0; i&lt;2; i++,j++) {System.out.print(i);}     // 1
+    for (int i=0, k=0; i&lt;2; i++,k++) {System.out.print(i);}     // 2
+    for (int i=0, int j=0; i&lt;2; i++,j++) {System.out.print(i);} // 3
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: 012345</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: 010101</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Compile-time error at line 1</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Compile-time error at line 2</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Compile-time error at line 3</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Run-time error</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 13</h2>
+<pre>
+class JMM125 {
+  static int i;
+  public static void main(String args[]) {
+    for (i=1; i&lt;3; i++) {System.out.print(i);}     // 1
+    for (int i=1; i&lt;3; i++) {System.out.print(i);} // 2
+    int i;                                         // 3
+    for (i=0; i&lt;2; i++) {System.out.print(i);}     // 4
+    System.out.print(JMM125.i);
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: 1212010</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: 1212013</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Compile-time error at line 1</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Compile-time error at line 2</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Compile-time error at line 4</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>g.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 14</h2>
+<pre>
+class JMM126 {
+  static int i;
+  public static void main(String args[]) {
+    for (i=1; i&lt;3; i++)     {System.out.print(i);} // 1
+    for (int i=1; i&lt;3; i++) {System.out.print(i);} // 2
+    int i;                                         // 3
+    for (int i=0; i&lt;2; i++) {System.out.print(i);} // 4
+    System.out.print(JMM126.i);
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: 1212010</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: 1212013</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Compile-time error at line 1</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Compile-time error at line 2</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Compile-time error at line 4</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>g.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 15</h2>
+<pre>
+
+class JMM101 {
+  public static void main(String[] args) {
+    int i = 0;
+    while (i++ &lt; args.length) {
+      System.out.print(args[i]);
+}}}
+java JMM101 A B C D E F</pre>
+<p id="question">
+What is the result of attempting to compile and run the 
+program using the specified command line?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: <span id="literal">JMM101ABCDEF</span></td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: <span id="literal">ABCDEF</span></td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 16</h2>
+<pre>
+class JMM110 {
+  public static void main (String[] args) {
+    int j = 0;
+    do for (int i = 0; i++ &lt; 2;)
+      System.out.print(i);
+    while (j++ &lt; 2);
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: 0001</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: 012</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: 012012</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Prints: 012345</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Prints: 001122</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Prints: 1112</td>
+</tr>
+<tr valign="top">
+<td>g.&nbsp;</td><td>Prints: 111222</td>
+</tr>
+<tr valign="top">
+<td>h.&nbsp;</td><td>Prints: 121212</td>
+</tr>
+<tr valign="top">
+<td>i.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>j.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>k.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 17</h2>
+<pre>
+class JMM111 {
+  public static void main (String[] args) {
+    int j = 0;
+    for (int i = 0; i &lt; 2; i++) do
+      System.out.print(i);
+    while (j++ &lt; 2);
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: 0001</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: 012</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: 012012</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Prints: 012345</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Prints: 001122</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Prints: 1112</td>
+</tr>
+<tr valign="top">
+<td>g.&nbsp;</td><td>Prints: 111222</td>
+</tr>
+<tr valign="top">
+<td>h.&nbsp;</td><td>Prints: 121212</td>
+</tr>
+<tr valign="top">
+<td>i.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>j.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>k.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 18</h2>
+<pre>
+class JMM112 {
+  public static void main (String[] args) {
+    int j = 0;
+    for (int i = 0; i++ &lt; 2;) do
+      System.out.print(i);
+    while (j++ &lt; 2);
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: 0001</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: 012</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: 012012</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Prints: 012345</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Prints: 001122</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Prints: 1112</td>
+</tr>
+<tr valign="top">
+<td>g.&nbsp;</td><td>Prints: 111222</td>
+</tr>
+<tr valign="top">
+<td>h.&nbsp;</td><td>Prints: 121212</td>
+</tr>
+<tr valign="top">
+<td>i.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>j.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>k.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 19</h2>
+<pre>
+class JMM113 {
+  public static void main (String[] args) {
+    int i = 0, j = 0, k = 0;
+    do while (i++ &lt; 3)
+      System.out.print(k++);
+    while (j++ &lt; 3);
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: 0001</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: 012</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: 012012</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Prints: 012345</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Prints: 001122</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Prints: 1112</td>
+</tr>
+<tr valign="top">
+<td>g.&nbsp;</td><td>Prints: 111222</td>
+</tr>
+<tr valign="top">
+<td>h.&nbsp;</td><td>Prints: 121212</td>
+</tr>
+<tr valign="top">
+<td>i.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>j.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>k.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 20</h2>
+<pre>
+class JMM114 {
+  public static void main (String[] args) {
+    int i = 0, j = 0;
+    while (i++ &lt; 3) do
+      System.out.print(j);
+    while (j++ &lt; 3);
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: 0001</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: 001122</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: 012012</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Prints: 012345</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Prints: 1112</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Prints: 111222</td>
+</tr>
+<tr valign="top">
+<td>g.&nbsp;</td><td>Prints: 121212</td>
+</tr>
+<tr valign="top">
+<td>h.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>i.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>j.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 21</h2>
+<pre>
+class JMM115 {
+  static int m1(String s, int i) {
+    System.out.print(s + i);
+    return i;
+  }
+  public static void main (String[] args) {
+    int i = 0, j = 0, k = 0;
+    do while (m1("i", ++i) &lt; 2)
+      System.out.print("k" + ++k);
+    while (m1("j", ++j) &lt; 2);
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: i1k1i2k2j1i3j2</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: i1k1i2k2j1i1k1i2k2j2</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: i1k1i2j1i3j2</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 22</h2>
+<pre>
+class JMM116 {
+  static int m1(String s, int i) {
+    System.out.print(s + i);
+    return i;
+  }
+  public static void main (String[] args) {
+    int j = 0;
+    for (int i = m1("A",0); m1("B",i) &lt; 2; m1("C",++i)) {
+      m1("J",++j);
+    }
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: A0B0C1J1B1C2J2B2</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: A0B0J1C1B1J2C2B2</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: A0B0J1C1A1B1J2C2A2B2</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 23</h2>
+<pre>
+class JMM117 {
+  public static void main (String[] args) {
+    int i = 0, j = 9;
+    do {
+      i++;
+      if (j-- &lt; i++) {break;}
+    } while (i &lt; 5);
+    System.out.print(i + "," + j);
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: 5,4</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: 6,3</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: 6,6</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Prints: 7,2</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>g.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 24</h2>
+<pre>
+class JMM118 {
+  public static void main (String[] args) {
+    int i = 0, j = 9;
+    while (i++ &lt;= j--) {i++; if (j &lt; 5) break;}
+    System.out.print(i + "," + j);
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: 4,7</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: 6,6</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: 7,2</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Prints: 8,5</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Prints: 9,4</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>g.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>h.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 25</h2>
+<pre>
+class JMM119 {
+  public static void main (String[] args) {
+    int i = 0, j = 9;
+    do {
+      if (j &lt; 4) {break;} else if (j-- &lt; 7) {continue;}
+      i++;
+    } while (i++ &lt; 7);
+    System.out.print(i + "," + j);
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: 4,7</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: 6,6</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: 6,5</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Prints: 6,4</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Prints: 7,5</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Prints: 8,4</td>
+</tr>
+<tr valign="top">
+<td>g.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>h.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>i.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 26</h2>
+<pre>
+class JMM120 {
+  public static void main (String args[]) {
+    int i = 0, j = 0, k = 0;
+label1:
+    for (;;) { i++;
+label2:
+      do {
+        k = i + j;
+        switch (k) {
+          case 0: continue label2;
+          case 1: continue label1;
+          case 2: break;
+          case 3: break label2;
+          case 4: break label1;
+          default: break label1;
+        }
+      } while (++j&lt;5);
+    }
+    System.out.println(i + "," + j);
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: 2,1</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: 2,2</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: 3,1</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Prints: 3,2</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Prints: 3,3</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>g.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>h.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Question 27</h2>
+<pre>
+class JMM121 {
+  public static void main (String args[]) {
+    int h = 0, i = 0, j = 0, k = 0;
+label1:
+    for (;;) { h++;
+label2:
+      do { i++; k = h + i + j;
+        switch (k) {
+          default: break label1;
+          case 1: continue label1;
+          case 2: break;
+          case 3: break label2;
+          case 4: continue label2;
+          case 5: continue label1;
+        }
+      } while (++j &lt; 5);
+    }
+    System.out.println(h + "," + i + "," + j);
+}}
+</pre>
+<p id="question">
+What is the result of attempting to compile and run the program?
+</p>
+<table border="0">
+<tbody>
+<tr valign="top">
+<td>a.&nbsp;</td><td>Prints: 1,2,3</td>
+</tr>
+<tr valign="top">
+<td>b.&nbsp;</td><td>Prints: 1,3,2</td>
+</tr>
+<tr valign="top">
+<td>c.&nbsp;</td><td>Prints: 2,2,2</td>
+</tr>
+<tr valign="top">
+<td>d.&nbsp;</td><td>Prints: 2,4,1</td>
+</tr>
+<tr valign="top">
+<td>e.&nbsp;</td><td>Prints: 2,4,2</td>
+</tr>
+<tr valign="top">
+<td>f.&nbsp;</td><td>Run-time error</td>
+</tr>
+<tr valign="top">
+<td>g.&nbsp;</td><td>Compile-time error</td>
+</tr>
+<tr valign="top">
+<td>h.&nbsp;</td><td>None of the above</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<header></header>
+<hr>
+<center>
+<font size="-1"><em>
+    Copyright &copy; 2002-2004, <br>
+    All rights reserved.
+  </em></font>
+</center>
+</body>
+</html>
+<!-- text below generated by server. PLEASE REMOVE --><!-- Counter/Statistics data collection code --><script language="JavaScript" src="http://hostingprod.com/js_source/geov2.js"></script><script language="javascript">geovisit();</script><noscript><img src="http://visit.webhosting.yahoo.com/visit.gif?us1139304411" alt="setstats" border="0" width="1" height="1"></noscript>
+<IMG SRC="http://geo.yahoo.com/serv?s=76001404&t=1139304411" ALT=1 WIDTH=1 HEIGHT=1>

@@ -1,0 +1,48 @@
+{
+    "user": {
+        "name": "",
+        "age": "",
+        "email": "",
+        "mobileNo": "",
+        "address": {
+            "addressLine1": "",
+            "addressLine2": "",
+            "city": "",
+            "pincode": "",
+            "state": "",
+            "country": ""
+        }
+    },
+    "trainerPreference": "",
+    "physiotherapistRequirement": "",
+    "selectedPackage": "",
+    "numberOfWeeks": "",
+    "ammount": ""
+}
+
+
+{
+    "user": {
+        "name": "",
+        "age": 0,
+        "email": "",
+        "mobileNo": 9898987777,
+        "address": {
+            "addressLine1": "",
+            "addressLine2": "",
+            "city": "",
+            "pincode": 400001,
+            "state": "",
+            "country": ""
+        },
+        "appointments": [
+            {
+                "trainerPreference": "",
+                "physiotherapistRequirement": true/false,
+                "selectedPackage": "",
+                "numberOfWeeks": "",
+                "ammount": ""
+            }
+        ]
+    }
+}

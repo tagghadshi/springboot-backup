@@ -1,0 +1,42 @@
+Intefaces1 Quiz Answers
+Q1.  C,D
+Q2.  A
+Q3.  A,C
+Q4.  D,F
+Q5.  D,E
+Q6.  A
+Q7.  E
+Q8.  B
+Q9.  A,C,F
+Q10. A
+Q11. A,D,E,F
+Q12. E
+Q13. A,B,C,D
+Q14. A,E
+Q15. A
+Q16. C,D,E
+Q17. C,D
+Q18. A,B,C
+Q19. C,D,E
+Q20. B,C,D
+Q21. C
+Q22. C
+Q23. E
+Q24. C,D
+Q25. H
+Q26. B
+
+
+Keywords1 Quiz Answers
+Q1.  L
+Q2.  B,C,D,H
+Q3.  A,C,E,F,H,J
+Q4.  E,G,I,K
+Q5.  B,D,K
+Q6.  A,B,C,D,I,J,K,
+Q7.  J
+Q8.  A,E
+Q9.  G
+Q10. F
+Q11. F
+

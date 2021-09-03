@@ -1,0 +1,79 @@
+Control1 Quiz Answers
+Q1.  C
+Q2.  B
+Q3.  C
+Q4.  D
+Q5.  C
+Q6.  D 
+Q7.  F
+Q8.  F
+Q9.  C
+Q10. C
+Q11. B
+Q12. B
+Q13. B
+Q14. B
+Q15. C
+Q16. H
+Q17. A
+Q18. F
+Q19. B
+Q20. D
+Q21. A
+Q22. A
+Q23. C
+Q24. E
+Q25. F
+Q26. C
+Q27. B
+
+
+Arguments1 Quiz Answers
+Q1.  B
+Q2.  F
+Q3.  B
+Q4.  A
+Q5.  C
+Q6.  A
+Q7.  B
+Q8.  C
+Q9.  A
+Q10. C
+Q11. D
+
+
+Constructors1 Quiz Answers
+Q1. B
+Q2. F
+Q3. E
+Q4. B
+Q5. A,B,C
+Q6. B
+Q7. C
+
+
+Inherit1 Quiz Answers
+Q1.  A,D
+Q2.  D
+Q3.  G
+Q4.  B
+Q5.  B,C
+Q6.  B
+Q7.  F
+Q8.  C
+Q9.  B
+Q10. B
+Q11. F
+Q12. C
+Q13. B
+Q14. D
+Q15. B
+Q16. E
+Q17. F
+Q18. B
+Q19. B
+Q20. B
+Q21. D
+
+
+

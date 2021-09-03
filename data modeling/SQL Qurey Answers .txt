@@ -1,0 +1,8 @@
+Q1.
+
+SELECT employees.LASTNAME,departments.DEPARTMENT_ID,departments.DEPARTMENT_NAME
+FROM practice.employees
+Inner Join practice.departments On 
+employees.DEPARTMENT_ID = departments.DEPARTMENT_ID;
+
+Q2

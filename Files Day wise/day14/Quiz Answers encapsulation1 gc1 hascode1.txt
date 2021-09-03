@@ -1,0 +1,38 @@
+Quiz Answer encapsulation1
+Q1.  A,B,E
+Q2.  A,B,D,F
+Q3.  B
+Q4.  A,E
+Q5.  D
+Q6.  E
+Q7.  C
+Q8.  D
+Q9.  D
+Q10. A,B
+
+Quiz Answer gc1
+Q1.  D
+Q2.  E
+Q3.  E
+Q4.  G
+Q5.  A,B,C
+Q6.  E
+Q7.  A,B,C,D
+Q8.  E
+Q9.  C
+Q10  H
+Q11  C
+
+Quiz Answer hascodes1
+Q1.  A
+Q2.  B
+Q3.  A
+Q4.  A
+Q5.  D
+Q6.  A,B,C,D
+Q7.  C
+Q8.  F
+
+
+
+

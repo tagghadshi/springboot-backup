@@ -1,0 +1,15 @@
+1. use oms-db
+2. db.orders.insert(name:"Tejas",age:37);
+   db.orders.insert(name:"Ajay",age:23);
+3. db.orders.find();
+4. db.orders.createIndex(
+	{ 
+	   age:1
+	}
+	{       
+	   unique: true,       
+	   sparse: true,       
+	   expireAfterSeconds: 3600   
+	}
+   )
+5.db.orders.aggregate([{$sort:{age:1}}])
